@@ -1,7 +1,42 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-h1, h2 {
-    color: blue;
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul { width: ;
+    padding: 15px; 
+    margin: 0px auto 0px auto; 
+    text-align: center;
+    background-color: 	#8B0000;
+} 
+li { display: inline; 
+    margin: 0px 3px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.site_title {
+    text-align: center;
+    font-size: 32px;
+}
+.site_description {
+    text-align: center;
+}
+
+figure.protrait {
+    margin-top: 10px;
+    float: left;
+}
+
+.article {
+    margin-top: 20px;
+    padding: 20px;
 }
