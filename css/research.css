@@ -53,3 +53,11 @@ a:visited {
 a {
     text-decoration: none;
 }
+
+.authors {
+    font-style: italic;
+}
+
+.abstract {
+    font-size: 14pt;
+}
