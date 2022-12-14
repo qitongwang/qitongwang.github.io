@@ -187,6 +187,9 @@ collections:
   working_papers:
     output: true
     permalink: /:collection/:path/
+  works_in_progress:
+    output: true
+    permalink: /:collection/:path/
 
 
 

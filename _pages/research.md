@@ -11,8 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
-## Working Papers
+## Working papers
 
 {% for post in site.working_papers reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
+## Works in progress
+{% for post in site.works_in_progress reversed %}
   {% include archive-single.html %}
 {% endfor %}
